@@ -1,11 +1,77 @@
 #header {
-    padding: 50px;
-    text-align: center;
-    background: #2BCCE2;
-    color: Black;
-    font-size: 60px; 
-  }
+  padding: 30px;
+  text-align: center;
+  background: #2bcce2;
+  color: Black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+}
 
-  .body {
-    background: #2BCCE2;
-  }
+#outButton {
+  font-size: 10px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(10, 107, 167);
+  position: sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+  color: white;
+  background-color: red;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f2ee0b;
+  color: black;
+}
+
+body {
+  background: #2bcce2;
+}
+
+.container {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: white;
+  margin: 25px;
+  /* border-style: solid; */
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin: -25px 0 0 -25px;
+}
+
+#landingImage {
+  width: 89.9vw; 
+  height: 73.4vh;
+  object-fit: cover;
+  position: absolute;
+  left: 5%;
+}
+
+#loginImage {
+  width: 89.9vw; 
+  height: 73.4vh;
+  object-fit: cover;
+  position: absolute;
+  left: 5%;
+}
